@@ -4,9 +4,9 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.9c592f76.js (249 KiB)"
   ],
   "version": "4.46.0",
-  "hash": "69b44fc51aba57c2724a",
-  "time": 1176,
-  "builtAt": 1648702388263,
+  "hash": "0b0b4ba1b20f90f5cd8e",
+  "time": 1065,
+  "builtAt": 1648702685715,
   "publicPath": "/",
   "outputPath": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
     "main": "main.eb15e0ba.js",
     "styles": [
       "styles.cf138da2.css",
-      "templates/styles.d77418d4.js"
+      "templates/styles.357b5743.js"
     ],
     "vendors~main": "templates/vendors~main.9c592f76.js"
   },
@@ -130,7 +130,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.d77418d4.js",
+      "name": "templates/styles.357b5743.js",
       "size": 82,
       "chunks": [
         6
@@ -169,7 +169,7 @@
       ],
       "assets": [
         "styles.cf138da2.css",
-        "templates/styles.d77418d4.js",
+        "templates/styles.357b5743.js",
         "templates/vendors~main.9c592f76.js",
         "main.eb15e0ba.js"
       ],
@@ -186,7 +186,7 @@
       ],
       "assets": [
         "styles.cf138da2.css",
-        "templates/styles.d77418d4.js",
+        "templates/styles.357b5743.js",
         "templates/vendors~main.9c592f76.js",
         "main.eb15e0ba.js"
       ],
@@ -1465,9 +1465,9 @@
       ],
       "files": [
         "styles.cf138da2.css",
-        "templates/styles.d77418d4.js"
+        "templates/styles.357b5743.js"
       ],
-      "hash": "663cc9cfb5605759c67c",
+      "hash": "379efeb606fb00475bd5",
       "siblings": [
         5,
         7
@@ -1542,7 +1542,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1648702387930\n      var cssReload = require(\"/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1648702685366\n      var cssReload = require(\"/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -3523,9 +3523,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4238,9 +4238,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 60,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 114,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 59,
@@ -4248,9 +4248,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -4363,9 +4363,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -5215,9 +5215,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -5668,9 +5668,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6114,9 +6114,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6592,9 +6592,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6653,9 +6653,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-          "issuerId": 28,
-          "issuerName": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+          "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
+          "issuerId": 78,
+          "issuerName": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
           "issuerPath": [
             {
               "id": 59,
@@ -6663,9 +6663,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6678,9 +6678,9 @@
               "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/toConsumableArray.js"
             },
             {
-              "id": 28,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-              "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js"
+              "id": 78,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
+              "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js"
             }
           ],
           "failed": false,
@@ -6739,9 +6739,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6805,9 +6805,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6876,9 +6876,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6942,9 +6942,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7008,9 +7008,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7084,9 +7084,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7236,9 +7236,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7317,9 +7317,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7398,9 +7398,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7484,9 +7484,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7560,9 +7560,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7636,9 +7636,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7712,9 +7712,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9346,9 +9346,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9408,9 +9408,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9470,9 +9470,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9532,9 +9532,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9589,9 +9589,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9651,9 +9651,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9713,9 +9713,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9775,9 +9775,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9837,9 +9837,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9904,9 +9904,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9976,9 +9976,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10048,9 +10048,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10125,9 +10125,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10197,9 +10197,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10274,9 +10274,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10351,9 +10351,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10428,9 +10428,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10510,9 +10510,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10592,9 +10592,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10669,9 +10669,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10746,9 +10746,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10818,9 +10818,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10915,9 +10915,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10982,9 +10982,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -11049,9 +11049,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -11116,9 +11116,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -11178,9 +11178,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -11243,9 +11243,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 114,
+              "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -14911,9 +14911,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -15626,9 +15626,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 60,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 114,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 59,
@@ -15636,9 +15636,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -15751,9 +15751,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -16603,9 +16603,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17056,9 +17056,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17805,9 +17805,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18283,9 +18283,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18344,9 +18344,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "issuerId": 28,
-      "issuerName": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "issuer": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
+      "issuerId": 78,
+      "issuerName": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
       "issuerPath": [
         {
           "id": 59,
@@ -18354,9 +18354,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18369,9 +18369,9 @@
           "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/toConsumableArray.js"
         },
         {
-          "id": 28,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-          "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js"
+          "id": 78,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
+          "name": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js"
         }
       ],
       "failed": false,
@@ -18430,9 +18430,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18496,9 +18496,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18567,9 +18567,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18633,9 +18633,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18699,9 +18699,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18775,9 +18775,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18927,9 +18927,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19008,9 +19008,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19089,9 +19089,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19175,9 +19175,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19251,9 +19251,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19327,9 +19327,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -19403,9 +19403,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21543,9 +21543,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21605,9 +21605,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21667,9 +21667,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21729,9 +21729,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21786,9 +21786,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21848,9 +21848,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21910,9 +21910,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21972,9 +21972,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22034,9 +22034,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22101,9 +22101,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22173,9 +22173,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22245,9 +22245,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22322,9 +22322,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22394,9 +22394,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22471,9 +22471,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22548,9 +22548,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22625,9 +22625,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22707,9 +22707,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22789,9 +22789,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22866,9 +22866,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22943,9 +22943,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23015,9 +23015,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23112,9 +23112,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23179,9 +23179,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23246,9 +23246,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23313,9 +23313,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23375,9 +23375,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -23440,9 +23440,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 114,
+          "identifier": "/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-hot-loader/webpack.js!/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -25394,7 +25394,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1648702387930\n      var cssReload = require(\"/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1648702685366\n      var cssReload = require(\"/Users/gabriel.balbuena/dev/gbalbuena/react-static-example/my-static-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 132,
